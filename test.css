@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #ffffff88;
+  position: absolute;
+}
+
+.card-group {
+  overflow: visible;
+}
+.card-group,
+.big-card {
+  border-radius: 1vmin;
+  width: 30vmin;
+  aspect-ratio: 5 / 7;
+}
+
+.big-card {
+  background: red;
+}
+
+.big-card:nth-child(4) {
+  width: 40vmin;
+  aspect-ratio: 5 / 7;
+  background: greenyellow;
+  transform: rotate(30deg);
+}
